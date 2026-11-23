@@ -1,0 +1,45 @@
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  background-color: #f4f4f0;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f4f4f0;
+  color: #171715;
+  font-family:
+    'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:not(:disabled),
+[role='button']:not([aria-disabled='true']) {
+  cursor: pointer;
+}
+
+::selection {
+  background-color: #171715;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #9c9c94;
+  opacity: 1;
+}
+
+:focus-visible {
+  outline: 2px solid #171715;
+  outline-offset: 3px;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
